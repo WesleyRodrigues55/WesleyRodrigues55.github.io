@@ -1,3 +1,3 @@
 # Portfólio
 
-<img src=".github/1.png">
+<img src=".github/Screenshot_1.png">
