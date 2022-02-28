@@ -126,9 +126,11 @@ ul>li {
     margin-left: 50px;
 }
 
-#main {
+.main {
     transition: margin-left .5s;
     padding: 16px;
+    background: rgba(25, 25, 25, 0.8);
+    width: 100vw;
 }
 
 @media screen and (max-height: 450px) {
