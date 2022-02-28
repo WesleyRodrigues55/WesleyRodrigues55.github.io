@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Wesley</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/slick-theme.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- icones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+
+    <!-- animation -->
+    <link rel="stylesheet" href="../assets/css/animate.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- popper bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+</head>
+
+<body class="body">
+
+
+    <span id="topo"></span>
+    <header class="container header">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#topo" id="go-topo">Topo</a>
+            <a href="#sobre" id="go-sobre">Sobre</a>
+            <a href="#projetos" id="go-projetos">Projetos</a>
+            <a href="#servicos" id="go-servicos">Serviços</a>
+            <a href="#contato" id="go-contato">Contato</a>
+        </div>
+
+
+        <div id="main">
+            <span style="font-size:30px;cursor:pointer; color: #fff" onclick="openNav()"><i class="bi bi-list"></i> Navegue</span>
+        </div>
+    </header>
+    <main>
+        <div class="">
+            <section class="banner py-4 px-2 d-flex justify-content-center align-items-center">
+                <div class="container box_banner">
+
+                    <h1 class="title">Olá, eu sou o Wesley Rodrigues</h1>
+                    <p class="subtitle">Trabalho como desenvolvedor WEB e Mobile.</p>
+                    <div class="buttons">
+                        <a href="https://github.com/WesleyRodrigues55?tab=repositories" class="btn1" target="_blank">Meus projetos</a>
+                        <a href="https://github.com/WesleyRodrigues55" class="btn2" target="_blank">GitHub</a>
+                    </div>
+                    <div class="contacts">
+                        <ul class="d-flex align-items-center">
+                            <li><a href="https://api.whatsapp.com/send?phone=5511975699770" target="_blank"><i class="bi bi-whatsapp icons"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/wesley-rodrigues-708360144/"><i class="bi bi-linkedin icons" target="_blank"></i></a></li>
+                            <li><a href="https://www.instagram.com/_welao/"><i class="bi bi-instagram icons" target="_blank"></i></a></li>
+                            <li><a href="mailto:wesley.santos140300@gmail.com"><i class="bi bi-envelope icons" target="_blank"></i></a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=100043384095123"><i class="bi bi-facebook icons" target="_blank"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="information" id="sobre">
+                <div class="container box_information">
+                    <h2 class="text-center mb-5 wow fadeInUp">SOBRE MIM</h2>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6">
+                            <div class="box_information_info">
+                                <!-- <h3>INFORMAÇÕES</h3> -->
+                                <div class="box_img">
+                                    <img class="img_profile wow fadeInUp" src="../assets/img/eu.png">
+                                </div>
+                                <div class="content_info wow fadeInUp">
+                                    <p><span class="info_tag">NOME: </span>Wesley Rodrigues</p>
+                                    <p><span class="info_tag">IDADE: </span>21 Anos</p>
+                                    <p><span class="info_tag">TELEFONE: </span>(11) 97569-9770</p>
+                                    <p><span class="info_tag">E-MAIL: </span>wesley.santos140300@gmail.com</p>
+                                    <p><span class="info_tag">FORMAÇÃO: </span><br> - Formado em Técnico em Desenvolvimento de Sistemas na ETEC de São Roque (período de 2020/2021);<br> - Tecnólogo em Ánalise e Desenvolvimento de Sistemas na Uniso - Universidade
+                                        de Sorocaba (estudando).</p>
+                                    <p><span class="info_tag">CURSOS COMPLEMENTARES: </span><br> - Certificados em Designer de Interfaces e Desenvolvimento WEB pela Udemy;<br> - HARDWARE - manutenção em Micro na MICROCAMP;<br> - Conscientização á LGPD.</p>
+                                    <p><a href="../assets/doc/curriculo.pdf" target="_blank">Currículo</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-12 col-lg-1"></div> -->
+                        <div class="col-md-12 col-lg-6">
+                            <div class="box_information_skills">
+                                <h3 class="wow fadeInUp">HABILIDADES</h3>
+                                <div class="slider center wow fadeInUp">
+                                    <div class="box_skills">HTML 3</div>
+                                    <div class="box_skills">CSS 3</div>
+                                    <div class="box_skills">Bootstrap</div>
+                                    <div class="box_skills">JavaScript</div>
+                                    <div class="box_skills">PHP</div>
+                                    <div class="box_skills">CodeIgniter 4</div>
+                                    <div class="box_skills">C#</div>
+                                    <div class="box_skills">SQL</div>
+                                    <div class="box_skills">My SQL</div>
+                                    <div class="box_skills">SQL Server</div>
+                                    <div class="box_skills">GitHub</div>
+                                    <div class="box_skills">Git</div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="box_information_skills">
+                                <h3 class="wow fadeInUp">ESTUDANDO</h3>
+                                <div class="slider center wow fadeInUp">
+                                    <div class="box_skills">Angular</div>
+                                    <div class="box_skills">React</div>
+                                    <div class="box_skills">Next.js</div>
+                                    <div class="box_skills">NPM</div>
+                                    <div class="box_skills">YARN</div>
+                                    <div class="box_skills">WordPress</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projetos" id="projetos">
+                <div class="box_projetos wow fadeInUp">
+                    <h2 class="text-center wow fadeInUp">MEUS PROJETOS</h2>
+                    <br><br>
+                    <div class="text-center">
+                        <div class="slider slider-for wow fadeInUp">
+                            <div>
+                                <div class="box_image">
+                                    <img src="../assets/img/projetos/momusic.png" class="img_projetos" alt="">
+                                    <br>
+                                    <a href="https://html-template-music.vercel.app/">Acessar site.</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="box_image">
+                                    <img src="../assets/img/projetos/aluracord.png" class="img_projetos" alt="">
+                                    <br>
+                                    <a href="https://aluracord-matrix-lake.vercel.app/">Acessar site.</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="box_image">
+                                    <img src="../assets/img/projetos/forum.png" class="img_projetos" alt="">
+                                    <br>
+                                    <a href="https://github.com/WesleyRodrigues55/CodeIgniter4_ForumDeDiscussao">Acessar repositório.</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="box_image">
+                                    <img src="../assets/img/projetos/asksystems.png" class="img_projetos" alt="">
+                                    <br>
+                                    <a href="http://www.asksystems.com.br/site/View/Index.html">Acessar site.</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="box_image">
+                                    <img src="../assets/img/projetos/spotify.png" class="img_projetos" alt="">
+                                    <br>
+                                    <a href="https://github.com/WesleyRodrigues55/HTML_CloneSpotify">Acessar repositório.</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="box_image">
+                                    <img src="../assets/img/projetos/loja_celular.png" class="img_projetos" alt="">
+                                    <br>
+                                    <a href="https://github.com/WesleyRodrigues55/PHP_LojaCelular">Acessar repositório.</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="box_image">
+                                    <img src="../assets/img/projetos/star-wars.png" class="img_projetos" alt="">
+                                    <br>
+                                    <a href="https://github.com/WesleyRodrigues55/HTML_StarWars">Acessar repositório.</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="box_image">
+                                    <img src="../assets/img/projetos/universidade.png" class="img_projetos" alt="">
+                                    <br>
+                                    <a href="https://html-template-universidade.vercel.app/">Acessar site.</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider slider-nav wow fadeInUp">
+                            <div>
+                                <img src="../assets/img/projetos/momusic.png" class="img_projetos_apresentacao" alt="">
+                            </div>
+                            <div>
+                                <img src="../assets/img/projetos/aluracord.png" class="img_projetos_apresentacao" alt="">
+                            </div>
+                            <div>
+                                <img src="../assets/img/projetos/forum.png" class="img_projetos_apresentacao" alt="">
+                            </div>
+                            <div>
+                                <img src="../assets/img/projetos/asksystems.png" class="img_projetos_apresentacao" alt="">
+                            </div>
+                            <div>
+                                <img src="../assets/img/projetos/spotify.png" class="img_projetos_apresentacao" alt="">
+                            </div>
+                            <div>
+                                <img src="../assets/img/projetos/loja_celular.png" class="img_projetos_apresentacao" alt="">
+                            </div>
+                            <div>
+                                <img src="../assets/img/projetos/star-wars.png" class="img_projetos_apresentacao" alt="">
+                            </div>
+                            <div>
+                                <img src="../assets/img/projetos/universidade.png" class="img_projetos_apresentacao" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="servicos" id="servicos">
+                <div class="container box_servicos">
+                    <h2 class="wow fadeInUp">SERVIÇOS</h2>
+                    <p class="wow fadeInUp">Alguns de meus serviços oferecidos:</p>
+                    <div class="row">
+                        <div class="col-lg-6 item_servicos wow fadeInUp">
+                            <span>Criação de Websites</span>
+                        </div>
+                        <div class="col-lg-6 item_servicos wow fadeInUp">
+                            <span>Criação de Aplicativos Mobile</span>
+                        </div>
+                        <div class="col-lg-6 item_servicos wow fadeInUp">
+                            <span>Criação de websites no WordPress</span>
+                        </div>
+                        <div class="col-lg-6 item_servicos wow fadeInUp">
+                            <span>Criação de Wireframes (baixo, média e alta fidelidade)</span>
+                        </div>
+                        <div class="col-lg-6 item_servicos wow fadeInUp">
+                            <span>Websites responsivos</span>
+                        </div>
+                        <div class="col-lg-6 item_servicos wow fadeInUp">
+                            <span>Manutenção em websites</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container contato" id="contato">
+                <div class="box_contato">
+                    <h2 class="text-center wow fadeInUp">Quer entrar em contato comigo?</h2>
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="../assets/img/eu.png" class="img_profile wow fadeInUp" alt="">
+                            <br><br>
+                            <p class="wow fadeInUp">Desenvolvedor WEB com o foco na criação e desenvolvimento de páginas webs e aplicativos Mobile.</p>
+                        </div>
+                        <div class="col-md-8">
+                            <form class="form wow fadeInUp">
+                                <div class="form-group my-3">
+                                    <input type="text" class="form-control" placeholder="Seu Nome" id="id_nome">
+                                </div>
+                                <div class="form-group my-3">
+                                    <input type="text" class="form-control" placeholder="Seu Telefone" id="id_telefone">
+                                </div>
+                                <div class="form-group my-3">
+                                    <textarea name="" cols="30" rows="7" class="form-control" placeholder="Sua mensagem..." id="id_mensagem"></textarea>
+                                </div>
+                                <div class="form-group buttons">
+                                    <a href="javascript:void(0)" class="btn1" onclick="pegarEmail(); return false">Enviar</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <section class="rodape">
+            <div class="container box_rodape">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Contatos</h3>
+                        <a href="https://api.whatsapp.com/send?phone=5511975699770" target="_blank" class="box_icon">
+                            <p><i class="bi bi-whatsapp icon_rodape"></i> +55 11 97569-9770</p>
+                        </a>
+                        <a href="mailto:wesley.rodrigues140300@gmail.com" target="_blank" class="box_icon">
+                            <p><i class="bi bi-envelope icon_rodape"></i> wesley.rodrigues140300@gmail.com</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Redes Sociais</h3>
+                        <a href="https://www.facebook.com/profile.php?id=100043384095123" target="_blank" class="box_icon">
+                            <p><i class="bi bi-facebook icon_rodape"></i> Wesley Rodrigues</p>
+                        </a>
+                        <a href="https://www.instagram.com/_welao/" target="_blank" class="box_icon">
+                            <p><i class="bi bi-instagram icon_rodape"></i> _welão</p>
+                        </a>
+                        <a href="https://github.com/WesleyRodrigues55" target="_blank" class="box_icon">
+                            <p><i class="bi bi-github icon_rodape"></i> WesleyRodrigues55</p>
+                        </a>
+                        <a href="https://www.linkedin.com/in/wesley-rodrigues-708360144/" target="_blank" class="box_icon">
+                            <p><i class="bi bi-linkedin icon_rodape"></i> Wesley Rodrigues</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center">Todos os direitos reservados<br>@Welão</p>
+        </section>
+    </footer>
+
+    <script type="text/javascript" src="../assets/js/js.js"></script>
+    <script type="text/javascript" src="../assets/js/scroll.js"></script>
+    <script type="text/javascript" src="../assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="../assets/js/carousel.js"></script>
+    <script type="text/javascript" src="../assets/js/scroll.js"></script>
+    <script type="text/javascript" src="../assets/js/nav.js"></script>
+    <script type="text/javascript" src="../assets/js/email.js"></script>
+    <script type="text/javascript" src="../assets/js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+
+</html>
