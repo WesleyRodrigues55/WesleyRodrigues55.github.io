@@ -56,6 +56,7 @@ $('.slider-nav').slick({
     focusOnSelect: true,
     autoplay: true,
     autoplaySpeed: 2000,
+    arrows: false,
     responsive: [{
         breakpoint: 768,
         settings: {
