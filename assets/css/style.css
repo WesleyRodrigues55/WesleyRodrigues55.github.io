@@ -66,13 +66,31 @@ h4 {
     text-shadow: 0px 0px 15px #000;
 }
 
+h2 {
+    color: #B39B19;
+}
+
 ul {
     padding-left: 0;
+}
+
+.link {
+    color: #B39B19;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #B39B19;
 }
 
 p,
 ul>li {
     color: #fff;
+}
+
+.box_icon>p {
+    color: #B39B19;
 }
 
 .rodape>p {
@@ -161,15 +179,15 @@ ul>li {
 }
 
 .buttons .btn1 {
-    background: #fff;
+    background: #B39B19;
     padding: 10px 25px;
     margin: 2px;
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 .buttons .btn2 {
-    border: 1px solid #fff;
+    border: 1px solid #B39B19;
     padding: 10px 25px;
     margin: 2px;
     text-decoration: none;
@@ -177,7 +195,9 @@ ul>li {
 }
 
 .buttons .btn1:hover {
-    color: #000;
+    color: #fff;
+    background: #756610;
+    transition: background 1.5s;
 }
 
 .buttons .btn2:hover {
@@ -190,11 +210,16 @@ ul>li {
 =================== */
 
 .information {
-    background: rgba(51, 51, 51, 0.9);
+    background: rgba(51, 51, 51);
     padding: 50px 10px;
 }
 
 .box_information {}
+
+.icon_curriculo {
+    font-size: 16px;
+    color: #fff;
+}
 
 .skills {
     display: flex;
@@ -280,20 +305,20 @@ ul>li {
     margin: 10px 0;
 }
 
-.item_servicos {
+.items_servicos {
     background: #B39B19;
-    margin: 10px 0;
+    margin: 15px 10px 15px 0;
     padding: 20px 10px;
     border-left: 20px solid #000;
     cursor: pointer;
 }
 
-.item_servicos:hover {
+.items_servicos:hover {
     transition: background 1.5s;
     background: #756610;
 }
 
-.item_servicos>span {
+.items_servicos>span {
     color: #000;
     font-size: 20px;
 }
@@ -347,6 +372,7 @@ textarea:focus {
 .icon_rodape {
     font-size: 20px;
     margin: 5px;
+    color: #fff;
 }
 
 
