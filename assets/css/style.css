@@ -151,15 +151,6 @@ ul>li {
     width: 100vw;
 }
 
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-    .sidenav a {
-        font-size: 18px;
-    }
-}
-
 
 /*  ===================
     section banner
@@ -450,6 +441,15 @@ textarea:focus {
     /* serviços */
     .item_servicos>span {
         font-size: 14px;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
     }
 }
 
