@@ -6,7 +6,7 @@ function pegarEmail() {
     var telefone = document.getElementById('id_telefone')
     var mensagem = document.getElementById('id_mensagem')
 
-    if (nome || telefone || mensagem == '') {
+    if (nome == '' && telefone == '' && mensagem == '') {
         window.alert('Preencha os campos!')
     } else {
         var body = 'Nome: ' + escape(nome.value) + quebraDeLinha +
